@@ -52,7 +52,7 @@ def input_marks_for_course():
 
 
 def list_students():
-    print("\n- Student List ")
+    print("\n Student List ")
     for s in students:
         print(f"ID: {s['id']}, Name: {s['name']}, DoB: {s['dob']}")
     print()
@@ -86,7 +86,7 @@ def show_marks_for_course():
 
 def main():
     while True:
-        print("- Student Mark Management ")
+        print(" Student Mark Management ")
         print("1. Number of students")
         print("2. Number of courses")
         print("3. Marks for a course")
