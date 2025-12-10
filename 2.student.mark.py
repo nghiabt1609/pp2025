@@ -80,7 +80,7 @@ class MarkManager:
             
         course_id = input("Select course ID: ")
         print()
-        print("Mark for course: {course_id} : ")
+        print(f"Mark for course: {course_id} : ")
         for s in self.__student :
             key = (s.get_id(), course_id)
             if key in self.__mark:

@@ -307,7 +307,7 @@ def curses_main(stdscr):
             break
         else:
             stdscr.addstr(len(menu_text) + 1, 0, "Invalid choice. Please try again.")
-
+            
         stdscr.refresh()
         stdscr.getch()
 
